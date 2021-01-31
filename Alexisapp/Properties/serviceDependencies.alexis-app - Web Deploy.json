@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/alexis3-server/databases/alexis3-baza",
+      "type": "mssql.azure",
+      "connectionId": "alexis-baza",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
